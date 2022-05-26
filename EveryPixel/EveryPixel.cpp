@@ -15,8 +15,9 @@ int main()
         Config config("config.txt");
         Replacer replacer(config);
         ThreadPool td(config.GetNumThreads());
-        
         replacer.Run(td);
+
+        std::cout << "Task Done" << std::endl;
     }
     catch (const std::exception& e)
     {

@@ -19,7 +19,6 @@ void Replacer::Run(ThreadPool& td)
         auto str = i->path().string();
         
         td.Submit([this, str]() {
-            std::cout << str << std::endl;
             ReplaceByTemplate(str);
         });
     }
