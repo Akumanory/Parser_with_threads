@@ -1,0 +1,8 @@
+THREADS
+4
+DIR
+Test_folder_root copy
+TEMPLATES
+<%COLOR%>-BLACK
+<%SIZE%>-4
+<%SUM%>-300
